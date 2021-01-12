@@ -9,7 +9,7 @@ body {
   background-image: url(./assets/bubbles.jpeg);
   height: 500px;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 /* start nav */
@@ -49,7 +49,7 @@ body {
 
 /* banner begins */
 #imgHead {
-  width: 540px; /* you can use % */
+  width: 450px; /* you can use % */
   height: auto;
   float: right;
 }
@@ -96,12 +96,13 @@ body {
 .about-me {
   padding: 8rem 5rem;
 }
+.skills-title,
 h2 > span {
   color: #353535;
   display: block;
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
 .hobb,
