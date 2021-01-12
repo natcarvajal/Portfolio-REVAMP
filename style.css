@@ -6,7 +6,7 @@ body {
   height: 100%;
 }
 body {
-  background-image: url(./assets/water_color.jpeg);
+  background-image: url(./assets/bubbles.jpeg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,9 +15,9 @@ body {
 /* start nav */
 .navbar-brand {
   padding: 0 2rem 0 5rem;
-  color: #353535;
+  color: #fffffc;
   font-family: "Nunito", serif;
-  background-image: linear-gradient(to right, #cdc1ff, #792edc);
+  background-image: linear-gradient(to right, #fffffc, #fae0e4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -34,13 +34,13 @@ body {
   font-family: "Nunito", serif;
 }
 .nav-link.active {
-  background-image: linear-gradient(to right, #cdc1ff, #7229a3);
+  background-image: linear-gradient(to right, #fffffc, #fae0e4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 .nav-link:hover {
-  background-image: linear-gradient(to right, #cdc1ff, #7229a3);
+  background-image: linear-gradient(to right, #fffffc, #fae0e4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,20 +55,20 @@ body {
 }
 
 .title h3 {
-  padding-top: 9%;
+  padding-top: 35%;
   font-weight: 500;
 }
 .title h3::after {
   content: "";
   height: 2px;
   width: 22vw;
-  background: #7229a3;
+  background: #fffffc;
   display: inline-block;
   margin-left: 5%;
   transform: translateY(-10px);
 }
 .title-text {
-  color: #7229a3;
+  color: #fffffc;
   font-family: "Nunito", serif;
 }
 .button {
@@ -80,7 +80,7 @@ body {
   border-radius: 3px;
 }
 .button.primary-button {
-  background-image: linear-gradient(to right, whitesmoke, #a06cd5);
+  background-image: linear-gradient(to right, fae0e4, #fffffc);
   background-clip: padding-box;
   color: #353535;
   transition: background.6s ease;
@@ -91,3 +91,8 @@ body {
   color: #353535;
 }
 /* banner ends */
+/* about begins */
+.about-me {
+  padding: 8rem 5rem;
+}
+/* about ends */
