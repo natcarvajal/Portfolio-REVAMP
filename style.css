@@ -6,10 +6,10 @@ body {
   height: 100%;
 }
 body {
-  background-image: url(./assets/bubbles.jpeg);
+  background-image: url(./assets/mountains.jpeg);
   height: 500px;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 /* start nav */
