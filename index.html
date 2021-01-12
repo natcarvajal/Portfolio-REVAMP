@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Natalia's Portfolio</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
@@ -16,11 +22,114 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+  </head>
+
+  <body>
+    <!-- start nav -->
+    <header class="navBar">
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Natalia Carvajal</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="mr-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- end nav -->
+    <!-- beginning of main content -->
+    <main class="main-content">
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-md-12 title">
+              <h3 class="title-text">Hello</h3>
+              <h1 class="title-text text-uppercase">My name is Natalia</h1>
+              <h4 class="title-text text-uppercase">
+                I am an aspiring Web Developer
+              </h4>
+              <div class="banner-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button
+                    type="button"
+                    class="btn button primary-button mr-4 text-uppercase"
+                  >
+                    Resume
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-12">
+                <img
+                id="imgHead"
+                src="./assets/circle-headshot.png"
+                alt="headshot"
+                class="img-fluid"
+                />
+          </div>
+        </div>
+      </section>
+        <!-- end of main content -->
+        <!-- about me begins -->
+      <section class="about-me">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="about-text"></div>
+            <div class="col-lg-6 col-md-12"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <!-- about me ends -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/7c715641eb.js"
       crossorigin="anonymous"
     ></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -36,80 +145,5 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-  </head>
-
-  <body>
-    <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand mb-1 hero">Natalia Carvajal</span>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- End Nav -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="jumbotron">
-            <div class="page-header">
-              <h1>About Me!</h1>
-            </div>
-            <hr class="my-4" />
-            <div class="row">
-              <div class="col-md-12">
-                <img
-                  src="https://universityofcharleston.zenfolio.com/img/s/v-10/p4050042071-2.jpg"
-                  alt="Headshot"
-                />
-                <p id="intro">
-                  Welcome! My name is Natalia Carvajal and I am an aspiring
-                  software developer. I am currenlty enrolled in Columbia's
-                  Engineering Coding Bootcamp. I received my Bachelor's Degree
-                  in Communications. After three years and several internhsips
-                  later, I realized I was going down the wrong path and needed
-                  to change that as soon as possible. I have always been
-                  interested in coding but never knew where to begin my journey,
-                  until now. I regret not starting earlier but better later than
-                  never. My hobbies include: going to the gym, binging netflix
-                  series, and playing with my dog, Baxter.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- footer -->
-    <footer class="footer mt-auto py-3">
-      <div class="container text-center">
-        <a href="https://www.linkedin.com/in/nataliacarvajal/">
-          <i class="fab fa-linkedin-in fa-2x"></i
-        ></a>
-        <a href="https://github.com/natcarvajal">
-          <i class="fab fa-github fa-2x"></i
-        ></a>
-      </div>
-    </footer>
   </body>
 </html>
