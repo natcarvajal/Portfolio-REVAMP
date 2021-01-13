@@ -17,7 +17,7 @@ Submit an updated LinkedIn profile
  
  ## Portfolio Screenshot: ##
   
-  ![Landing page to my revamped portfolio]()
+  ![Landing page to my new and improved portfolio]()
   
  ## Languages Used: ##
   
