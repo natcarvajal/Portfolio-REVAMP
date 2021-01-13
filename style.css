@@ -118,19 +118,28 @@ p.para {
 /* about ends */
 /* skills start */
 
-.skills-title {
-  margin-top: 5rem;
+#skills {
   color: #353535;
   display: block;
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
   letter-spacing: 5px;
 }
-#s-icons {
-  margin-bottom: 5rem;
+/* .ca-title {
+  color: #353535;
+  display: block;
+  font-family: "Nunito", serif;
+  margin-bottom: 2rem;
 }
+.card-title {
+  margin-top: 2rem;
+  color: #353535;
+  display: block;
+  font-family: "Nunito", serif;
+} */
 
 /* skill ends */
+
 /* project starts */
 /* #projectImg {
   width: 300px; you can use %
