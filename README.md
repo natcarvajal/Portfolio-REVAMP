@@ -23,6 +23,6 @@ Submit an updated LinkedIn profile
   
       HTML, CSS, Bootstrap 
       
- ## Deployed Sites : ##
-* [Github Repo]()
-* [Deployed Link]()
+ ## Links : ##
+* [Github Repo](https://github.com/natcarvajal/Portfolio-REVAMP)
+* [Deployed](https://natcarvajal.github.io/Portfolio-REVAMP/)
