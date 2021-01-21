@@ -13,7 +13,7 @@ This weeks homework required updating my portfolio page and other materials to b
 
 ## Screenshot:
 
-![Landing page to my new and improved portfolio](./assets/new-portfolio.png)
+![Landing page to my new and improved portfolio](./assets/screenshot-final.png)
 
 ## Future Features
 
