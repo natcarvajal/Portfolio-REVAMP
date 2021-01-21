@@ -6,13 +6,10 @@ This weeks homework required updating my portfolio page and other materials to b
 
 ## Requirements :
 
-Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
-<br>
-Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
-<br>
-Submit an updated resume
-<br>
-Submit an updated LinkedIn profile
+* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+* Submit an updated resume
+* Submit an updated LinkedIn profile
 
 ## Screenshot:
 
@@ -20,13 +17,10 @@ Submit an updated LinkedIn profile
 
 ## Future Features
 
-Add a project section
-<br>
-Application needs to be more responsive
-<br>
-Apply a fixed navbar
-<br>
-Need to figure out how to make the background image the full length
+* Add a project section
+* Application needs to be more responsive
+* Apply a fixed navbar
+* Need to figure out how to make the background image the full length
 
 ## Languages Used:
 
