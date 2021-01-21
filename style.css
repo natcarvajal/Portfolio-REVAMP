@@ -162,8 +162,8 @@ p.para {
   background: transparent;
   border: transparent;
 }
-.card-title {
-  font: normal bold 36px/60px;
+#pro-title {
+  font-size: 32px;
   color: #353535;
   font-family: "Nunito", serif;
 }
