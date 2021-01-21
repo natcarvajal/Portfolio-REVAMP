@@ -83,6 +83,7 @@ body {
   position: relative;
   border: 2px solid transparent;
   border-radius: 3px;
+  border-radius: 6px;
 }
 .button.primary-button {
   background-image: linear-gradient(to right, #abc4ff, #fffffc);
@@ -119,11 +120,14 @@ p.para {
 /* skills start */
 
 #skills {
-  color: #353535;
+  color: #fffffc;
   display: block;
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
   letter-spacing: 5px;
+}
+#s-icons {
+  color: #fffffc;
 }
 /* .ca-title {
   color: #353535;
@@ -141,18 +145,35 @@ p.para {
 /* skill ends */
 
 /* project starts */
-/* #projectImg {
-  width: 300px; you can use %
-  height: auto;
-  border: whitesmoke;
-} */
+.title-h1 {
+  color: #fffffc;
+  display: block;
+  font: normal bold 49px/60px;
+  font-family: "Nunito", serif;
+  letter-spacing: 5px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+#projectImg {
+  width: 538px;
+  height: 45rem;
+}
+.card {
+  background: transparent;
+  border: transparent;
+}
+.card-title {
+  font: normal bold 36px/60px;
+  color: #353535;
+  font-family: "Nunito", serif;
+}
 /* project ends */
 
 /* footer begins */
 .contact-title {
   margin-top: 5rem;
   margin-left: 9rem;
-  color: #fffffc;
+  color: #353535;
   display: block;
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
@@ -160,7 +181,7 @@ p.para {
 }
 
 #c-icons {
-  color: #fffffc;
+  color: #353535;
   padding: 0.5rem 0.5rem;
 }
 #c-icons:hover {
