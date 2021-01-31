@@ -29,6 +29,8 @@ body {
   font-size: 28px;
 }
 .navbar {
+  position: fixed;
+  z-index: 2;
   padding: 0 10rem;
 }
 .nav-link {
