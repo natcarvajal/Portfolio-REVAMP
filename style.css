@@ -9,7 +9,7 @@ body {
   background-image: url(./assets/bubbles.jpeg);
   height: 500px;
   background-position: center;
-  background-repeat: repeat-y;
+  /* background-repeat: repeat-y; */
   background-size: cover;
   /* object-fit: cover;
   width: 100%;
@@ -156,10 +156,10 @@ p.para {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
-#projectImg {
+/* #projectImg {
   width: 538px;
   height: 45rem;
-}
+} */
 .card {
   background: transparent;
   border: transparent;
